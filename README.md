@@ -2,9 +2,7 @@
 
 Jupyter notebook for simple two-date change detection with **Sentinel-1** SAR data using the **log-ratio** method:
 
-\[
-\log_{10}\left(\frac{\text{newer image}}{\text{older image}}\right)
-\]
+$\log_{10}\!\left(\frac{\text{newer image}}{\text{older image}}\right)$
 
 The workflow is a Python / openEO reimplementation of the classic “log-ratio scaling” approach often demonstrated in QGIS tutorials, but:
 
